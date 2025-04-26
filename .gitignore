@@ -4,6 +4,10 @@
 *.o
 *.obj
 
+# Ignore videos
+*.mp4
+*.mkv
+
 # Ignore build folders
 /build/
 /bin/
