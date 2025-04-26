@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+
+int main () {
+    
+    float v,u=0,a=16,s=200;
+    
+    v = u*u + 2*a*s;
+    v = sqrtf(v);
+    printf("The stone will hit the ground with the velocity %.2f m/s", v);
+    
+    return 0;
+}

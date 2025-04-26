@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float v=0,r=0,w=40;
+    
+    // PART A 
+    r = 0.7;
+    v = r*w;
+    printf("The  magnitude of the linear velocity of a point located at %.2f meters from the center is %.2f m/s\n", r, v);
+    
+    // PART B
+    
+    r = 3;
+    v = r*w;
+    printf("The  magnitude of the linear velocity of a point located at %.2f meters from the center is %.2f m/s\n", r, v);
+    
+    // PART C
+    
+    r = 4;
+    v = r*w;
+    printf("The  magnitude of the linear velocity of a point located at %.2f meters from the center is %.2f m/s\n", r, v);
+    
+
+    return 0;
+}

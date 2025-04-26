@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <math.h>
+
+int main () {
+	
+	float s_length=30,angle=60,angle_rad=0,h=0,pi=M_PI;
+	angle_rad = angle * (pi/180);
+	h=s_length*tan(angle_rad);
+	printf("(A) The height of the pole is %.2f meters", h);
+	
+	s_length=40,angle=45,angle_rad=0,h=0,pi=M_PI;
+	angle_rad = angle * (pi/180);
+	h=s_length*tan(angle_rad);
+	printf("\n(B) The height of the pole is %.2f meters", h);
+	
+	s_length=15,angle=75,angle_rad=0,h=0,pi=M_PI;
+	angle_rad = angle * (pi/180);
+	h=s_length*tan(angle_rad);
+	printf("\n(C) The height of the pole is %.2f meters", h);
+	
+	s_length=50,angle=30,angle_rad=0,h=0,pi=M_PI;
+	angle_rad = angle * (pi/180);
+	h=s_length*tan(angle_rad);
+	printf("\n(D) The height of the pole is %.2f meters", h);
+	
+	return 0;
+}

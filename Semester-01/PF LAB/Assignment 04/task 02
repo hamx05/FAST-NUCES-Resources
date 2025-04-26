@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <math.h>
+#include<stdbool.h>
+int main () {
+	int a=4,b=3,c;
+	c=a+b; // Using Arithmetic Addition Operator
+	printf("(a) 4 + 3 = %d\n",c);
+	
+	a=6, b=3,c;
+	c=a/b; // Using Arithmetic Division Operator
+	printf("(b) 6/3 = %d\n",c);
+	
+	int d=0, e=1,f;
+	f=d||e; // Using Logical OR Operator
+	printf("(c) %d\n",f);
+	
+	a=15, b=2;
+	c=a%b; // Using Arithmetic MOD Operator
+	printf("(d) 15 MOD 2 = %d\n",c);
+	
+	a=6, b=9,c; // Using IF and RELATIONAL Operator
+	if(c=6<9); {
+	printf("(e) 6 < 9 = %d\n",c); }
+	
+	a=35, b=75,c;
+	c=a%b; // Using Arithmetic MOD Operator
+	printf("(f) 35 MOD 75 = %d\n",c);
+	
+	a='B'>'J'; // Using Relational Operator
+	printf("(g) \"B\" > \"J\" = %d \n",a);
+	
+	
+	a=0,b=1;
+	c=a+b;
+	d=(c!=1); // Using Relational (NOT EQUAL TO) Operator and printing 
+	printf("(h) %d\n",d);
+	
+	
+	float p=35,q=60,r;
+	r=p/q; // Using Arithmetic Division Operator
+	printf("(i) 35/60 = %.2f\n",r);
+	
+	d=0, e=1;
+	f=d+e; // Using Relational Operators
+	printf("(j) %d AND %d\n", f!=1, f==1);
+	
+	p=30, q=0.25,r;
+	r=p*q; // Using Arithmetic Multiplication Operator
+	printf("(k) 30 * 0.25 = %.3f\n",r);
+	
+	a=45,b=45;
+	c= a>= b; // Using Relational Operator
+	printf("(l) 45 >= 45 = %d",c);
+	
+
+	return 0;
+}

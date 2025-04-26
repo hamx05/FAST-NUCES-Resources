@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float d=0,angle=0,v0=0,h=0, angle_rad=0, x_axis=0, y_axis=0, t=0, pi = M_PI, vx=0, vy=0, g=9.8,vf=0;
+
+    
+    printf("Enter the distance (d) in meters = ");
+    scanf("%f", &d);
+    printf("Enter the angle (θ) in degree = ");
+    scanf("%f", &angle);
+    printf("Enter the initial velocity (v0) in m/s = ");
+    scanf("%f", &v0);
+    printf("Enter the height (h) in meters = ");
+    scanf("%f", &h);
+    
+    angle_rad = angle * (pi/180);
+    x_axis = cos(angle_rad);
+    y_axis = sin(angle_rad);
+    t = d / (v0 * x_axis);
+    vx = v0 * x_axis;
+    vy = v0 * (y_axis - (g * t));
+    vf = sqrtf((vx*vx) + (vy*vy));
+    
+    printf("\n(Part A) The time taken for the rocket to reach the target = %.2f seconds.\n", t);
+    printf("(Part B) The final velocity of the rocket when it reaches the target = %.2f m/s\n", vf);
+    printf("(Part C) The x-axis angle at which the rocket is launched = %.2f radians.\n", x_axis);
+    printf("(Part D) The y-axis angle at which the rocket is launched = %.2f radians.\n", y_axis);
+
+    
+    return 0;
+}
+
