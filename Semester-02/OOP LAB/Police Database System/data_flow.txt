@@ -1,0 +1,29 @@
+-----Lost Item-----
+Item name
+Description
+//Item ID
+Submitted By
+Location
+
+-----Found Item-----
+Item name
+Description
+//Item ID
+Submitted By
+Location
+
+-----FIR-----
+Person name
+//Fir ID
+Registered By
+Reason
+
+-----Personnel-----
+Full name
+//Personnel ID
+Department
+Rank
+Salary
+
+
+
