@@ -25,6 +25,6 @@ Thumbs.db
 *.userosscache
 *.sln.docstates
 
-# Ignore logs and temporary files
+# Ignore logs and temporary files 
 *.log
 *.tmp
