@@ -3,8 +3,8 @@
 This directory contains the solution for Data Structures Assignment 01.
 
 ## Contents
-- `Data Structures Assignment#2 Fall 24`: Original assignment pdf
-- `K232005_DS_A2`: My written report
+- `Data Structures Assignment#1 Fall 24`: Original assignment pdf
+- `K232005_DS_A1`: My written report
 - `code/`: Contains all C++ source files for the assignment
 
 ## To Compile
