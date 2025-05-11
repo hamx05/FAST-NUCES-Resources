@@ -1,0 +1,60 @@
+
+
+        // void deleteNode() {
+        //     int target;
+        //     cout << "Enter the User ID that you want to delete: ";
+        //     target = getInt();;
+        //     cin.ignore();
+
+        //     NodeBST* result = deleteHelper(root, target);
+        //     // if (result) {
+        //     //     cout << "ID " << target << " has been deleted." << endl;
+        //     // } else {
+        //     //     cout << "ID " << target << " not found in the database and thus not deleted." << endl;
+        //     // }
+        // }
+
+        // NodeBST* deleteHelper (NodeBST* temp, int target) {
+        //     if (temp == NULL) return NULL;
+
+        //     // find the node
+        //     if (target < temp->record.id) {
+        //         temp->leftChild = deleteHelper(temp->leftChild, target);
+        //     }
+        //     else if (target > temp->record.id) {
+        //         temp->rightChild = deleteHelper(temp->rightChild, target);
+        //     }
+            
+        //     // once the NodeBST has been found, we reach here
+        //     else {
+        //         // case 01: no children
+        //         if (temp->leftChild == NULL && temp->rightChild == NULL) {
+        //             delete temp;
+        //             cout << "ID " << target << " has been deleted." << endl;
+        //             return NULL;
+        //         }
+
+        //         // case 02: 1 child
+        //         else if (temp->rightChild == NULL) { // node has left child
+        //             NodeBST *left = temp->leftChild;
+        //             delete temp;
+        //             cout << "ID " << target << " has been deleted." << endl;
+        //             return left;
+        //         }
+
+        //         else if (temp->leftChild == NULL) { // node has right child
+        //             NodeBST *right = temp->rightChild;
+        //             delete temp;
+        //             cout << "ID " << target << " has been deleted." << endl;
+        //             return right;
+        //         }
+
+        //         // case 03: 2 children
+        //         NodeBST *inSuccessor = findInSuccessor(temp->rightChild);
+        //         temp->record.id = inSuccessor->record.id;
+        //         temp->rightChild = deleteHelper(temp->rightChild, inSuccessor->record.id);
+        //         cout << "ID " << target << " has been deleted." << endl;
+        //     }
+        //     cout << "ID " << target << " not found in the database and thus not deleted." << endl;
+        //     return temp;
+        // }

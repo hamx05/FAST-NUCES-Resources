@@ -1,0 +1,4 @@
+- let the user add any kind of password while saving credentials, remove the restriction
+get username and password on same page @SETUP and LOGIN PAGE
+add password generator
+strengthMeter_Worked is the ok file.

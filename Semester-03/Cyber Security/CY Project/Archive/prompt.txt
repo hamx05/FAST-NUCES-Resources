@@ -1,0 +1,12 @@
+Write an acknowedgement, abstract, project overview, system architecture, problem statement, proposed solution, workflow and all the other things that u can think are required in a project report.
+
+My project is a password manager, that has features:
+- login, create account
+- encryption./decryption used for storing credentials
+- view and search credentials
+- delete credentials
+- analyze passwords and tell which paswords are weak, strong, etc
+- password generator that generates a strong password
+-   copy button that lets u copy the passowrd
+- md5 hashing for secured login
+- strength bar that is updated everytime a key is entered while setting password, so it lets u see the strength of ur password visually

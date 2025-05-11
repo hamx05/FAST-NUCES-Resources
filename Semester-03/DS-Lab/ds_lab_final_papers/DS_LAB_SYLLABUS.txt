@@ -1,0 +1,25 @@
+- ✔ Rule of Three
+
+- ✔ Searching algorithms (Binary Search and Interpolation Search).
+
+- ✔ Linked Lists (Singly, Doubly, Circular).
+
+- ✔ Recursion and its types (Direct and Indirect Recursion, Tailed and Non-Tailed Recursion, and Nested Recursion) *.
+
+- ✔ Backtracking (Solve the rat maze problem variations and N-Queen's problem variations).
+
+- ✔ Advance sorting algorithms (Quick sort, Merge sort, Radix Sort).
+
+- ✔ Stack and its operations (Practice with both arrays and linked lists).
+
+- ✔ Queue and its operations (Practice with both arrays and linked lists along with circular queue).
+
+- ✔ Binary Search Tree and its operations (Formation, Insertion, Deletion, Search, Traversal (In-order, PreOrder, PostOrder)).
+
+- ✔ AVL Tree and its operations (Formation, Insertion, Deletion, Search, Traversal).
+
+- ✔ Heaps and its operations (Min Heap, Max Heap, Heap Sort, Priority Queue, Formation of heaps, Insertion, Deletion, Searching in heaps, Traversal).
+
+-Hashing and its operations (Components of Hashing, Inserting in a Hash Table, Hash Functions (Division method, Mid square value method, folding method),
+
+Deleting from a Hash Table,Searching in a Hash Table, Collision resolution techniques (Separate chaining, Linear probing, Quadratic probing, Double Hashing), Rehashing & Load factor).
